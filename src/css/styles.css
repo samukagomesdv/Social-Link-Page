@@ -1,0 +1,69 @@
+body{
+    background-color: #141414;
+
+}
+.conteudo{
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    height: 500px;
+    width: 300px;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+.imagem-perfil{
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+.conteudo h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    color: #fff;
+}
+.conteudo h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    color: greenyellow;
+    margin-top: -15px;
+    padding: 5px;
+}
+.conteudo p{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 10px;
+    padding: 20px;
+    font-weight: 300;
+}
+.conteudo .box-botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    gap: 15px;
+}
+.conteudo .box-botoes a{
+    display: flex;
+    width: 250px;
+    height: 35px;
+    background-color: #3b3b3b;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+}
+.conteudo .box-botoes a:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
