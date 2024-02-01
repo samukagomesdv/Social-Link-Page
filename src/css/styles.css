@@ -47,7 +47,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding: 5px;
     gap: 15px;
 }
 .conteudo .box-botoes a{
@@ -61,9 +60,12 @@ body{
     color: #fff;
     font-size: 10px;
     font-weight: 600;
+    font-style: none;
 }
 .conteudo .box-botoes a:hover{
     cursor: pointer;
     background-color: greenyellow;
 }
-
+.conteudo .box-botoes nav ul li{
+    padding: 5px;
+}
